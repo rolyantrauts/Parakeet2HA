@@ -1,7 +1,7 @@
 # Parakeet2HA
 HA voice control 
 
-Just a prrof of concept no LLM needed voice control of HA.
+Just a proof of concept no LLM needed voice control of HA.
 
 The LLM needs for turning on a lightbulb or static fixed strings of HASSIL have always been a confusion for me.
 So knocked this up over the last couple of days, its running on a I3-9100 mini pc with HA.
