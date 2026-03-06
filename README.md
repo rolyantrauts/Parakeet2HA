@@ -19,9 +19,17 @@ Anyway have a play, its MIT so copy and molest at your leisure.
 
 if you want to test you can add this to /homeassistant/configuration.yaml via the file editor addon
 ```
-sudo apt-get install -y build-essential cmake libboost-all-dev zlib1g-dev libbz2-dev liblzma-dev git portaudio19-dev``
-
+sudo apt-get install -y build-essential cmake libboost-all-dev zlib1g-dev libbz2-dev liblzma-dev git portaudio19-dev
+pip install https://kheafield.com/code/kenlm.tar.gz
+# or
+git clone https://github.com/kpu/kenlm.git
+cd kenlm
+mkdir -p build
+cd build
+cmake ..
+make -j $(nproc)
 ```
+
 # ==============================================================================
 # 1. INPUT BOOLEANS & NUMBERS (VIRTUAL HARDWARE STATE)
 # ==============================================================================
