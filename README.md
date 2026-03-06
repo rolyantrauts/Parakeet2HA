@@ -357,3 +357,16 @@ climate:
 
 Alocate to rooms and add names.
 I should do more about just selecting names and domain functions, but as you can see the base logic is there and guess maybe someone will. 
+
+```
+# ~/.asoundrc
+
+# Define the virtual 'mic' device
+pcm.mic {
+    type plug
+    slave.pcm "hw:0,0"  # Replace this with your actual loopback hardware ID if different
+}
+
+# Optional: You can explicitly hint the rate and channels, 
+# though 'plug' will automatically adapt to PyAudio's 16000Hz request.
+```
