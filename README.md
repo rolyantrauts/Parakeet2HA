@@ -12,7 +12,8 @@ Same methods with smaller models will work, but you have have individual languag
 
 Its extremely fast to update from end of voice command even on a I3-9100.
 I have played about with the intent parser enough to get much working, but I don't really create product, just highlight methods and concept.
-It can be set as an authoritive 2nd stage wakeword or without and could even replave the need for wakeword.
+It can be set as an authoritive 2nd stage wakeword or without and could even replace the need for wakeword if you so wanted.
+config.yaml is fairly small and easy to configure and sort of self explanitory.
 
 Anyway have a play, its MIT so copy and molest at your leisure.
 
